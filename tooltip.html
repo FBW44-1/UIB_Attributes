@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: green;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <h1>This is a heading</h1>
+
+    <h2 class="tooltip">Second Heading
+        <span class="tooltiptext">WebUp Rules!</span>
+    </h2>
+
+
+</body>
+
+</html>
+
+
+<!-- Do not display this heading at the moment
+<h3>This is a heading</h3> -->
